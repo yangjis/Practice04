@@ -12,19 +12,18 @@ public class Ex08 {
 				
 		for(int i = 0; i < lotto.length; i++) {
 			
-			int lottoNum = (int)(Math.random() * 45) + 1;
-			lotto[i]= lottoNum;
+			lotto[i] = (int)(Math.random() * 45) + 1;
 			
 			for(int x = 0; x < i; x++) {
 				if(lotto[i] == lotto[x]) {
 					i--;
 				}
 			}
+			
 		}
 		
-		
-		for(int i = 0; i <lotto.length; i++) {
-			System.out.print(lotto[i] + "    ");
+ 		for(int i = 0; i <lotto.length; i++) {
+			System.out.print(lotto[i] + "     ");
 		}
 
 	}

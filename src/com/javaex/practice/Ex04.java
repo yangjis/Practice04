@@ -15,7 +15,7 @@ public class Ex04 {
 		for(int i = 0; i < data.length; i++) {
 			if(data[i]%3 == 0) {
 				count++;
-				sum = sum + data[i];
+				sum += data[i];
 			}
 		}
 		System.out.println("주어진 배열에서 3의 배수의 개수 =>" + count);

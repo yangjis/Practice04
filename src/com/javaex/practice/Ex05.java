@@ -17,7 +17,7 @@ public class Ex05 {
 		for(int i = 0; i < num.length; i++) {
 			num[i] = scan.nextInt();
 			
-			sum = sum + num[i];
+			sum += num[i];
 			result = sum / num.length;
 		}
 		
